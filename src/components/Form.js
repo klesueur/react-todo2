@@ -18,6 +18,7 @@ const Form = ({ addTodo }) => {
         if (todo.task.trim()) {
             addTodo({ ...todo, id: uuidv4() })
         }
+        // Resets input on ui
         setTodo({ ...todo, task: "" })
     }
 
