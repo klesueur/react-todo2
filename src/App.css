@@ -2,6 +2,10 @@
   text-align: center;
   background-color: #282c34;
   height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .App-header {
@@ -13,4 +17,16 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.Form {
+  padding-bottom: 50px;
+}
+
+.TodoItem {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
